@@ -968,6 +968,10 @@ video {
   gap: 6rem;
 }
 
+.gap-28 {
+  gap: 7rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
@@ -1025,6 +1029,16 @@ video {
 .rounded-b-lg {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-t-xl {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.rounded-t-3xl {
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
 }
 
 .rounded-bl-xl {
@@ -1227,6 +1241,14 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1423,6 +1445,10 @@ video {
 
   .md\:mr-20 {
     margin-right: 5rem;
+  }
+
+  .md\:flex {
+    display: flex;
   }
 
   .md\:w-\[400px\] {
