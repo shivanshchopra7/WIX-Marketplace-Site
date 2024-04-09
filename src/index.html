@@ -67,7 +67,7 @@
             </div>
         </section>
     </section>
-<section class="flex items-center justify-center bg-slate-900 gap-14 border-t-2 border-b-2 border-white rounded-b-2xl ">
+<section class="md:flex items-center justify-center bg-slate-900 gap-14 border-t-2 border-b-2 border-white rounded-b-2xl ">
     <div class="text-white text-center mb-4 mt-5">
         <h1 class="text-2xl font-bold">550K Requests</h1>  
         <p>submitted in 2023</p>    
@@ -83,8 +83,8 @@
     </div>
 </section>
 <section class="pb-10">
-<h1 class="mt-10 mb-6 ml-20 text-2xl font-bold">Explore services for every <br> stage of your business </h1>
-<p class="ml-20 font-semibold">Select services and browse through a curated list of professionals who can help <br> you reach your goals. You can filter matches by location, price and language, view <br> their portfolios and read reviews.</p>
+<h1 class="md:mt-10 mb-6 ml-20 text-2xl font-bold">Explore services for every <br> stage of your business </h1>
+<p class="md:ml-20 font-semibold text-center">Select services and browse through a curated list of professionals who can help <br> you reach your goals. You can filter matches by location, price and language, view <br> their portfolios and read reviews.</p>
 </section>
 <section class="grid grid-cols-1 md:grid-cols-3 gap-4 p-4 ">
     <div class="card flex flex-col items-center justify-center mb-4">
@@ -114,13 +114,13 @@
     <div class="card flex flex-col items-center justify-center">
         <img src="/src/ui/ux.jpg " alt="Image 1" class="w-150 h-[250px] mb-4 rounded-xl">
         <h1 class="text-2xl font-bold mb-5 hover:underline hover:cursor-pointer">UI / UX Design</h1>
-        <p class="text-lg mb-5 font-semibold "> Elevate your brand with intuitive design  solutions. <br>From sleek websites to seamless user experiences. </p>
+        <p class="text-lg mb-5 font-semibold text-center "> Elevate your brand with intuitive design  solutions. <br>From sleek websites to seamless user experiences. </p>
         <p class="hover:font-bold hover:cursor-pointer hover:underline">Explore now &#8594;</p>
     </div>
     <div class="card flex flex-col items-center justify-center">
         <img src="/src/mobile-dev.jpg " alt="Image 1" class="w-150 h-[250px] mb-4 rounded-xl">
         <h1 class="text-2xl font-bold mb-5 hover:underline hover:cursor-pointer">Mobile Development</h1>
-        <p class="text-lg mb-5 font-semibold "> Crafting mobile experiences with responsive design ,<br>for seamlessness in user interaction and engagement. </p>
+        <p class="text-lg mb-5 font-semibold text-center"> Crafting mobile experiences with responsive design ,<br>for seamlessness in user interaction and engagement. </p>
         <p class="hover:font-bold hover:cursor-pointer hover:underline">Explore now &#8594;</p>
     </div>
    
@@ -147,7 +147,7 @@
 
 </div>
 </section>
-<section class="flex flex-col md:flex-row-reverse bg-gradient-to-br">
+<section class="flex flex-col md:flex-row-reverse bg-gradient-to-br pb-10">
     <img src="bg-image.webp" alt="" class="bg-cover w-full md:w-[50%] h-auto md:h-full">
     <div class="flex flex-col justify-center md:ml-20 ml-2">
         <h1 class="text-4xl font-extrabold text-black">Who are our pros?</h1>
@@ -166,7 +166,7 @@
     </div>
 </section><section class="bg-black">
     <div class="md:justify-center md:flex md:flex-col md:items-center">
-        <h1 class="text-5xl text-white md:mt-10 mb-8 text-center md:text-center">Get started now, hire a pro.</h1>
+        <h1 class="text-5xl text-white md:mt-10 pt-10 mb-8 text-center md:text-center">Get started now, hire a pro.</h1>
         <div class="flex justify-center"> 
             <button class="bg-white w-40 h-10 rounded-xl font-semibold mb-10">Find a Professional</button>
         </div>
@@ -178,74 +178,83 @@
 
     </main>
     <footer class="bg-gray-950 text-white py-6">
-        <div class="container items-center justify-center flex mb-5">
+        <div class="container items-center justify-center flex md:mb-5 md:border-b md:border-white ">
             <h1 class="text-3xl font-bold mb-6 transition-colors duration-300 wix-heading hover:from-black hover:to-white hover:text-gray-300">WIX</h1>
             
         </div>
-        <div class="container mx-auto md:flex flex-col md:flex-row  md:justify-center hidden">
-            <div class="flex flex-col items-center mb-8 md:mb-0 md:mr-8 ">
+        <div class="container mx-auto md:flex flex-col md:flex-row md:justify-center hidden">
+            <div class="flex flex-col items-center mb-8 md:mb-0 md:mr-8">
                 <div class="inline-flex flex-col items-center">
                     <h2 class="text-lg font-semibold hover:underline">Product</h2>
-                    <p class="text-sm mt-2 hover:text-blue-300 mb-1">Website Templates</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Website Builder</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Website Design</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Wix Features</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">App Market</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Web Hosting</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Domain Names</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Website Accessibility</p>
+                    <div class="text-container min-w-max ml-16 mt-4">
+                        <p class="text-sm hover:text-blue-300 mb-1">Website Templates</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Website Builder</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Website Design</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Wix Features</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">App Market</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Web Hosting</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Domain Names</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Website Accessibility</p>
+                    </div>
                 </div>
             </div>
             <div class="flex flex-col items-center mb-8 md:mb-0 md:mr-8 md:ml-10">
                 <div class="inline-flex flex-col items-center">
                     <h2 class="text-lg font-semibold hover:underline">Solutions</h2>
-                    <p class="text-sm mt-2 hover:text-blue-300 mb-1">Online Stores</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Online Bookings</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Restaurant Website</p>
-                    <p class="text-sm  hover:text-blue-300 mb-1">Blog Website</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Portfolio Website</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">eCommerce Website</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Wix Studio</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Enterprise Solution</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Student Website</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Professional Tools</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Logo Maker</p>
+                    <div class="text-container min-w-max ml-14 mt-4">
+                        <p class="text-sm hover:text-blue-300 mb-1">Online Stores</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Online Bookings</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Restaurant Website</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Blog Website</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Portfolio Website</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">eCommerce Website</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Wix Studio</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Enterprise Solution</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Student Website</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Professional Tools</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Logo Maker</p>
+                    </div>
                 </div>
             </div>
             <div class="flex flex-col items-center mb-8 md:mb-0 md:mr-8 md:ml-10">
                 <div class="inline-flex flex-col items-center">
                     <h2 class="text-lg font-semibold hover:underline">Learn</h2>
-                    <p class="text-sm mt-2 hover:text-blue-300 mb-1">WixBlog</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Privacy and security</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">SEO Learning Hub</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Wix Encyclopedia</p>
+                    <div class="text-container min-w-max ml-20 mt-4">
+                        <p class="text-sm hover:text-blue-300 mb-1">WixBlog</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Privacy and security</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">SEO Learning Hub</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Wix Encyclopedia</p>
+                    </div>
                 </div>
             </div>
             <div class="flex flex-col items-center mb-8 md:mb-0 md:mr-8 md:ml-10">
                 <div class="inline-flex flex-col items-center md:justify-center">
                     <h2 class="text-lg font-semibold hover:underline">Support</h2>
-                    <p class="text-sm mt-2 hover:text-blue-300 mb-1">Help centre</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Hire a Professional</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Report Abuse</p>
+                    <div class="text-container min-w-max ml-12 mt-4">
+                        <p class="text-sm hover:text-blue-300 mb-1">Help centre</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Hire a Professional</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Report Abuse</p>
+                    </div>
                 </div>
             </div>
             <div class="flex flex-col items-center mb-8 md:mb-0 md:mr-8 md:ml-10">
                 <div class="inline-flex flex-col items-center">
                     <h2 class="text-lg font-semibold hover:underline">Company</h2>
-                    <p class="text-sm mt-2 hover:text-blue-300 mb-1">About</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Contact Us</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Press and media</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Investor Relation</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Wix Capital</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Accessibility Statement</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Patent Notice</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Sitemap</p>
-                    <p class="text-sm hover:text-blue-300 mb-1">Career</p>
+                    <div class="text-container min-w-max ml-16 mt-4">
+                        <p class="text-sm hover:text-blue-300 mb-1">About</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Contact Us</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Press and media</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Investor Relation</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Wix Capital</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Accessibility Statement</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Patent Notice</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Sitemap</p>
+                        <p class="text-sm hover:text-blue-300 mb-1">Career</p>
+                    </div>
                 </div>
             </div>
-            
-            </div>
         </div>
+        
     </footer>
     
     
